@@ -1,0 +1,25 @@
+header{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+header .logo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img{
+    width: 150px;
+}
+
+header nav ul li a {
+    color: white;
+}
