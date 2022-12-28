@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const {main, list, crear, editar, eliminar,} = require('../controllers/adminControllers');
+const {list, crear, editar, eliminar,} = require('../controllers/adminControllers');
 const adminLogs = require('../middlewares/adminLogs')
 
 router.get('/',adminLogs,list);
