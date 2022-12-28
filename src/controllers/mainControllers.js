@@ -14,7 +14,7 @@ module.exports = {
         res.redirect('/')
     },
     login:(req,res) =>{
-        res.send('Bienvenidos a la vista login')
+        res.render('login')
     },
     processLogin:(req,res) =>{
         res.redirect('/')
